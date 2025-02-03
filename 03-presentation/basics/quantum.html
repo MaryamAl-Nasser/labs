@@ -5,7 +5,55 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css">
   <title>Quantum Computing</title>
+  <style type="text/css">
+    body{
+      background-color: rgb(190, 228, 251);
+      font-size: 20px;
+    }
+
+    header{
+      nav{
+        ul{
+          list-style: none;
+          padding: 0;
+        }
+        li{
+          display: inline;
+        }
+      }   
+   }
+
+   h1,
+   h2,
+   h3,
+   h4,
+   h5,
+   h6{
+        color: rgb(35, 1, 158);
+        font-family: sans-serif;
+   }
+
+   a{
+    color: blue;
+    text-decoration: none;
+   }
+
+   figure{
+    border: solid 1px rgb(0, 15, 101);
+    border-radius: 5px;
+    padding: 4em;
+    margin-left: 0;
+    margin-right: 0;
+   }
+
+   figcaption{
+    text-align: center;
+   }
+
+   
+  </style>
 </head>
 
 <body>
@@ -54,12 +102,13 @@
       in performing physical simulations; however, the current state of the
       art is still largely experimental and impractical.
     </p>
-    <figure>
-      <img src="images/IBM_Q_system_(Fraunhofer_2).jpg" alt="IBM Q System One" width="100%" />
+    <figure class="box">
+      <img src="images/IBM_Q_system_(Fraunhofer_2).jpg" alt="IBM Q System One" width="50%" />
       <figcaption>
         IBM Q System One, a quantum computer with 20 superconducting qubits
       </figcaption>
     </figure>
+    
     <p>
       The basic unit of information in quantum computing is the qubit, similar
       to the bit in traditional digital electronics. Unlike a classical bit, a
